@@ -4,12 +4,27 @@
 
 body {
     background-color: aliceblue;
-    margin: 1rem;
+    margin: 0;
+}
+
+header {
+    background-color: papayawhip;
+    font-family: monospace;
+    color: tomato;
+    text-align: center;
+    padding: 1rem;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 div {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
     gap: 1rem;
 }
 
